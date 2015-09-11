@@ -1,21 +1,14 @@
 # cookiecutter-es6-boilerplate
 A cookiecutter for front end prototypes.
 
-# Prerequisites:
+## Quick Start
 
-- [Node.js](https://nodejs.org/en/) — `brew install node`
-- [Gulp.js](http://gulpjs.com/) — `npm install -g gulp`
-
-# Quick start:
-
-Install dependencies:
-
+Install [cookiecutter](https://github.com/audreyr/cookiecutter):
 ```bash
-npm install
+pip install cookiecutter
 ```
 
-Start development server:
-
-```bash
-npm start
+Scaffold your project:
+```
+cookiecutter gh:agconti/cookiecutter-es6-boilerplate
 ```

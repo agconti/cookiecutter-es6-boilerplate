@@ -1,7 +1,7 @@
 {
-  "name": "cookiecutter-es6-boilerplate",
+  "name": "{{cookiecutter.github_repository_name}}",
   "version": "0.1.0",
-  "description": "cookiecutter-es6-boilerplate",
+  "description": "{{cookiecutter.description}}",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,16 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agconti/cookiecutter-es6-boilerplate.git"
+    "url": "git+https://github.com/agconti/{{cookiecutter.github_repository_name}}.git"
   },
   "keywords": [
   ],
-  "author": "Andrew Conti <agc11d@gmail.com> (http://agconti.com)",
+  "author": "{{cookiecutter.your_name}} <{{cookiecutter.your_email}}> ({{cookiecutter.your_website}})",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/agconti/cookiecutter-es6-boilerplate/issues"
+    "url": "https://github.com/agconti/{{cookiecutter.github_repository_name}}/issues"
   },
-  "homepage": "https://github.com/agconti/cookiecutter-es6-boilerplate#readme",
+  "homepage": "https://github.com/agconti/{{cookiecutter.github_repository_name}}#readme",
   "devDependencies": {
     "babel-core": "^5.8.23",
     "browser-sync": "^2.9.3",
