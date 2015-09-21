@@ -23,7 +23,7 @@ browserSync.create()
 gulp.task('build:js', () => {
    return gulp.src(`${ srcDir }/**/*.js`)
      .pipe(sourcemaps.init())
-     .pipe(babel({modules}))
+     .pipe(babel({modules}).on('error', err => console.error(err)))
      .pipe(concat('all.js'))
      .pipe(sourcemaps.write('.'))
      .pipe(gulp.dest(distDir))
