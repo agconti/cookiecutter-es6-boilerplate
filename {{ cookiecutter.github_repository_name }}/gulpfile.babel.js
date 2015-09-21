@@ -32,7 +32,7 @@ gulp.task('build:js', () => {
 gulp.task('build:sass', () => {
   return gulp.src([`${ srcDir }/**/*.scss`])
     .pipe(autoprefixer('last 2 versions'))
-    .pipe(sass())
+    .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest(distDir))
     .pipe(browserSync.stream())
 })
