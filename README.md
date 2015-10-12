@@ -13,6 +13,8 @@ Scaffold your project:
 cookiecutter gh:agconti/cookiecutter-es6-boilerplate
 ```
 
+![es6 scaffolding](http://g.recordit.co/nWAar6XQCj.gif)
+
 # Features
 
 - ES6 today via [Babel](https://babeljs.io/)
