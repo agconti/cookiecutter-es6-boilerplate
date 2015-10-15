@@ -9,26 +9,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agconti/{{cookiecutter.github_repository_name}}.git"
+    "url": "git+https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repository_name}}.git"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "{{cookiecutter.your_name}} <{{cookiecutter.your_email}}> ({{cookiecutter.your_website}})",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/agconti/{{cookiecutter.github_repository_name}}/issues"
+    "url": "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repository_name}}/issues"
   },
-  "homepage": "https://github.com/agconti/{{cookiecutter.github_repository_name}}#readme",
+  "homepage": "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repository_name}}#readme",
   "devDependencies": {
     "babel-core": "^5.8.23",
     "browser-sync": "^2.9.3",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.1",
     "gulp-babel": "^5.2.1",
+    "gulp-changed": "^1.3.0",
     "gulp-concat": "^2.6.0",
     "gulp-minify-css": "^1.2.1",
     "gulp-sass": "^2.0.4",
     "gulp-sourcemaps": "^1.5.2",
-    "node-normalize-scss": "^1.0.3"
+    "gulp-uglify": "^1.4.2",
+    "node-normalize-scss": "^1.0.3",
+    "rimraf": "^2.4.3"
   }
 }
