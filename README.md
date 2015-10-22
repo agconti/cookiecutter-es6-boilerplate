@@ -13,7 +13,7 @@ Scaffold your project:
 cookiecutter gh:agconti/cookiecutter-es6-boilerplate
 ```
 
-![es6 scaffolding](http://g.recordit.co/nWAar6XQCj.gif)
+![es6 scaffolding](https://cloud.githubusercontent.com/assets/3332051/10678207/df1f2de0-78de-11e5-84b7-62484ddfea56.gif)
 
 # Features
 
