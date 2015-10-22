@@ -1,6 +1,9 @@
 # cookiecutter-es6-boilerplate
 A lean cookiecutter for front-end prototypes. Built for bleeding edge development with ES6.
 
+## Overview
+This project takes care of the setup and configuration so you can focus on making your app awesome. Scaffolding a project takes seconds and it gives you the essentials, like ES6 through Bable and a viable scss framework, to get started. This project aims to get out of your way, and to allow you easily create while providing a solid foundation for your app to mature in the future.
+
 ## Quick Start
 
 Install [cookiecutter](https://github.com/audreyr/cookiecutter):
