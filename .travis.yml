@@ -1,0 +1,22 @@
+language: python
+python:
+  - "2.7"
+before_script:
+  - npm install -g npm
+  - npm install -g gulp
+install:
+  - pip install cookiecutter
+  - cookiecutter . --no-input
+  - cd piedpiper
+  - npm install
+script:
+  - npm run build
+notifications:
+  email: false
+# This reportedly works around an issue downloading packages from pypi on
+# travis. Consider removing this after the underlying issue is fixed.
+# https://github.com/travis-ci/travis-ci/issues/2389
+sudo: false
+
+matrix:
+  fast_finish: true
