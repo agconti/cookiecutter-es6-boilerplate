@@ -1,4 +1,6 @@
 # cookiecutter-es6-boilerplate
+[![Build Status](https://travis-ci.org/agconti/cookiecutter-es6-boilerplate.svg?branch=master)](https://travis-ci.org/agconti/cookiecutter-es6-boilerplate)
+
 A lean cookiecutter for front-end prototypes. Built for bleeding edge development with ES6.
 
 ## Overview
