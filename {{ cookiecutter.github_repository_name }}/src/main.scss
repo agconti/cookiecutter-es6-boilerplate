@@ -2,7 +2,9 @@
 /* Resets */
 @import "../node_modules/node-normalize-scss/_normalize.scss";
 
+/* Core */
+@import "z-index";
 
 /* Config */
-@import "z-index";
+@import "colors";
 @import "easings";

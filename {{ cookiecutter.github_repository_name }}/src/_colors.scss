@@ -1,0 +1,7 @@
+$color-black: hsl(0, 0, 0%);
+$color-grey: hsl(0, 0%, 50%);
+$color-white: hsl(0, 100%, 100%);
+
+$color-primary: $color-grey !default;
+$color-primary-dark: $color-black !default;
+$color-accent: $color-white !default;
