@@ -2,7 +2,7 @@ import gulp from 'gulp'
 import browserSync from 'browser-sync'
 import changed from 'gulp-changed'
 
-import {baseDir, jsSrc, scssSrc, staticSrc} from './config'
+import {baseDir, jsSrc, scssSrc, staticSrc, testSrc} from './config'
 import {buildJs} from './build.javascript'
 
 
@@ -12,4 +12,5 @@ export function serve () {
     gulp.watch(jsSrc, ['watch:js'])
     gulp.watch(scssSrc, ['build:sass'])
     gulp.watch(staticSrc, ['build:static'])
+    gulp.watch(testSrc, ['test:js'])
 }
