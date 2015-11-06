@@ -25,6 +25,7 @@ cookiecutter gh:agconti/cookiecutter-es6-boilerplate
 - Live reload via [browser-sync](http://www.browsersync.io/)
 - Sass via [gulp-sass](https://www.npmjs.com/package/gulp-sass)
 - Testing with [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/)
+- Style enforcement with [XO](https://github.com/sindresorhus/xo)
 - CSS prefixing via [autoprefixer](https://github.com/postcss/autoprefixer)
 - CSS resets via [Normailize.css](https://necolas.github.io/normalize.css/)
 - CSS Minification via [gulp-minify-css](https://www.npmjs.com/package/gulp-minify-css)

@@ -5,6 +5,7 @@ import sourcemaps from 'gulp-sourcemaps'
 import babel from 'gulp-babel'
 import concat from 'gulp-concat'
 import uglify from 'gulp-uglify'
+import xo from 'gulp-xo'
 
 import {logError} from './utils'
 import {jsSrc, distDir, modules} from './config'
@@ -14,6 +15,7 @@ export function buildJs () {
   return gulp.src(jsSrc)
     .pipe(changed(distDir))
     .pipe(sourcemaps.init())
+    .pipe(xo().on('error', () => this.emit('end')))
     .pipe(babel({modules}).on('error', logError))
     .pipe(concat('all.min.js'))
     .pipe(uglify().on('error', logError))

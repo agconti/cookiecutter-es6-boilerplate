@@ -1,5 +1,5 @@
 {
-  "name": "{{cookiecutter.github_repository_name}}",
+  "name": "ddd",
   "version": "0.1.0",
   "description": "{{cookiecutter.description}}",
   "main": "index.js",
@@ -19,6 +19,15 @@
     "url": "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repository_name}}/issues"
   },
   "homepage": "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repository_name}}#readme",
+  "xo": {
+    "envs": [
+      "node",
+      "mocha"
+    ],
+    "esnext": true,
+    "semicolon": false,
+    "space": true
+  },
   "devDependencies": {
     "babel-core": "^5.8.23",
     "browser-sync": "^2.9.3",
