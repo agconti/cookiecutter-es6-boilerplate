@@ -12,3 +12,4 @@ export const staticDist = `${distDir}/**/*.{html,jpg,png,gif,svg}`
 export const scssMain = `${srcDir}/main.scss`
 export const scssSrc = `${srcDir}/**/*.scss`
 export const jsSrc = `${srcDir}/**/*.js`
+export const testSrc = `./test/**/*.js`
