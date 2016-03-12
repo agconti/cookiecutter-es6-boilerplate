@@ -13,7 +13,7 @@ gulp.task('test:js', testJs)
 
 gulp.task('build:js', ['test:js'], buildJs)
 gulp.task('build:sass', buildScss)
-gulp.task('build:static', ['clean:static:dist'], buildScss)
+gulp.task('build:static', ['clean:static:dist'], buildStatic)
 gulp.task('build', ['build:js', 'build:sass', 'build:static'])
 
 gulp.task('watch:js', ['build:js'], browserSync.reload)
