@@ -8,7 +8,7 @@ import {buildJs} from './build.javascript'
 
 export function serve () {
     browserSync.create()
-    browserSync.init({ server: { baseDir }})
+    browserSync.init({ server: { baseDir: baseDir }})
     gulp.watch(jsSrc, ['watch:js'])
     gulp.watch(scssSrc, ['build:sass'])
     gulp.watch(staticSrc, ['build:static'])
